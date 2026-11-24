@@ -1,0 +1,27 @@
+stdout:
+LIVE 1 hybrid PASS 
+LIVE 1 classical_middle PASS 
+LIVE 2 hybrid PASS 
+LIVE 2 classical_middle PASS 
+LIVE 3 hybrid PASS 
+LIVE 3 classical_middle PASS 
+LIVE 4 hybrid PASS 
+LIVE 4 classical_middle PASS 
+LIVE 5 hybrid PASS 
+LIVE 5 classical_middle PASS 
+LIVE 6 hybrid PASS 
+LIVE 6 classical_middle PASS 
+LIVE 7 hybrid PASS 
+LIVE 7 classical_middle PASS 
+LIVE 8 hybrid PASS 
+LIVE 8 classical_middle PASS 
+LIVE 9 hybrid PASS 
+LIVE 9 classical_middle PASS 
+LIVE 10 hybrid PASS 
+LIVE 10 classical_middle PASS 
+ARCHIVE /var/tmp/pqc-v33-public.92XZCoUw/comparison_20261031T205340Z_b43e2ef5
+TALLIES {"report_only": {"n": 100, "false_hybrid_approvals": 40, "unresolved": 0, "invalid": 0}, "signed_receiver": {"n": 100, "false_hybrid_approvals": 0, "unresolved": 20, "invalid": 20}, "protected_fresh": {"n": 100, "false_hybrid_approvals": 0, "unresolved": 20, "invalid": 40}}
+PASS: 20 live scenario runs and 300 paired method decisions
+
+stderr:
+

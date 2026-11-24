@@ -1,0 +1,1 @@
+{"cases": 40, "type": "synthetic matched-evidence ablation; intentionally weakened checks", "verdicts": {"INVALID": 28, "SATISFIED": 6, "VIOLATED": 6}, "warning": "Ablations are exploratory custom checkers; compare source-level definitions before manuscript inclusion."}

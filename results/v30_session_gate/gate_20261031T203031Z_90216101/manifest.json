@@ -1,0 +1,18 @@
+{
+  "schema": "pqc-v3-integration-gate",
+  "date_utc": "2026-10-31T20:30:31.622089+00:00",
+  "openssl": "OpenSSL 3.5.9 29 Sep 2026 (Library: OpenSSL 3.5.9 29 Sep 2026)",
+  "count": 3,
+  "trials_requested": 3,
+  "model": "same-process 3-hop pyOpenSSL TLS 1.3",
+  "limits": [
+    "ALL endpoints in same process; no independent receiver trust or protected keys",
+    "self-signed certificate authentication disabled",
+    "no post-quantum authentication",
+    "no verifier-trusted provenance: copied proofs are not independently authenticated",
+    "only two fixed negotiated-group conditions; not distributional attack study",
+    "copied proof negative control still passes: no independently authenticated evidence origin"
+  ],
+  "completed": 6,
+  "passes": 6
+}

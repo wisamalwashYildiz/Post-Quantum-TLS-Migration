@@ -1,0 +1,63 @@
+{
+  "experiment": "Differential behavior against untouched v32 and v44",
+  "cases": 10,
+  "legacy_agreement": 10,
+  "v45_differences": 6,
+  "differences": [
+    {
+      "path": "hybrid",
+      "intervention": "missing_first",
+      "v32": "INVALID",
+      "v44": "INVALID",
+      "v45": "UNRESOLVED",
+      "legacy_agreement": true,
+      "reference_diff": true
+    },
+    {
+      "path": "hybrid",
+      "intervention": "missing_last",
+      "v32": "INVALID",
+      "v44": "INVALID",
+      "v45": "UNRESOLVED",
+      "legacy_agreement": true,
+      "reference_diff": true
+    },
+    {
+      "path": "hybrid",
+      "intervention": "missing_middle",
+      "v32": "INVALID",
+      "v44": "INVALID",
+      "v45": "UNRESOLVED",
+      "legacy_agreement": true,
+      "reference_diff": true
+    },
+    {
+      "path": "classical_middle",
+      "intervention": "missing_first",
+      "v32": "INVALID",
+      "v44": "INVALID",
+      "v45": "VIOLATED",
+      "legacy_agreement": true,
+      "reference_diff": true
+    },
+    {
+      "path": "classical_middle",
+      "intervention": "missing_last",
+      "v32": "INVALID",
+      "v44": "INVALID",
+      "v45": "VIOLATED",
+      "legacy_agreement": true,
+      "reference_diff": true
+    },
+    {
+      "path": "classical_middle",
+      "intervention": "missing_middle",
+      "v32": "INVALID",
+      "v44": "INVALID",
+      "v45": "VIOLATED",
+      "legacy_agreement": true,
+      "reference_diff": true
+    }
+  ],
+  "utc": "2026-11-02T16:39:35.219261+00:00"
+}

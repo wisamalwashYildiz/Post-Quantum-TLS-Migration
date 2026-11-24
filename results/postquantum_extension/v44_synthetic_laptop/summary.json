@@ -1,0 +1,22 @@
+{
+  "source": "synthetic-offline",
+  "cases": 70,
+  "passed": 70,
+  "failed": 0,
+  "configurations": 5,
+  "policies": [
+    "strict",
+    "multi_hybrid"
+  ],
+  "run_utc": "2026-11-02T16:03:47.759298+00:00",
+  "note": "v44 is an independent policy-aware extension; missing evidence behavior remains conservative and positional, matching v32; synthetic is not live evidence.",
+  "counts": {
+    "('unaltered', 'True')": 10,
+    "('unsigned_group_edit', 'True')": 10,
+    "('unsigned_exporter_edit', 'True')": 10,
+    "('missing_middle_receiver', 'True')": 10,
+    "('fresh_first', 'True')": 10,
+    "('same_challenge_again', 'True')": 10,
+    "('different_challenge', 'True')": 10
+  }
+}

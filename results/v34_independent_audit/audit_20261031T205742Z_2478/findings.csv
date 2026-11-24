@@ -1,0 +1,4 @@
+method,decisions,false_hybrid_approvals,invalid,unresolved
+report_only,100,40,0,0
+signed_receiver,100,0,20,20
+protected_fresh,100,0,40,20

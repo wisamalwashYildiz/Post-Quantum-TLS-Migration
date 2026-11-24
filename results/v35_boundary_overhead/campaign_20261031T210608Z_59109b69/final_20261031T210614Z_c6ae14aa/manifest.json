@@ -1,0 +1,40 @@
+{
+  "schema": "pqc-v35-boundary-performance",
+  "created_utc": "2026-10-31T21:06:34.850663+00:00",
+  "openssl": "OpenSSL 3.5.9 29 Sep 2026 (Library: OpenSSL 3.5.9 29 Sep 2026)",
+  "trials_requested": 10,
+  "transactions_per_connection": 3,
+  "iterations_per_method_per_scenario": 100,
+  "successful_live_scenarios": 20,
+  "total_live_scenarios": 20,
+  "method_summaries": {
+    "report_only": {
+      "n": 2000,
+      "median_ns": 2646.0,
+      "p95_nearest_rank_ns": 5544,
+      "mean_evidence_bytes": 48
+    },
+    "signed_receiver": {
+      "n": 2000,
+      "median_ns": 688684.0,
+      "p95_nearest_rank_ns": 858617,
+      "mean_evidence_bytes": 5033
+    },
+    "protected_fresh": {
+      "n": 2000,
+      "median_ns": 4178375.0,
+      "p95_nearest_rank_ns": 5027457,
+      "mean_evidence_bytes": 5033
+    }
+  },
+  "errors": [],
+  "limits": [
+    "Compromise simulated by privileged laboratory operator reading one valid receiver signing key; NOT actual process exploitation.",
+    "A dishonest legitimate signer can authenticate a false claim; unilateral falsification is rejected here by adjacent honest evidence, NOT a general malicious receiver guarantee.",
+    "Verification timings are separate but Python-level microbenchmarks, not application latency or throughput.",
+    "Protected verifier duration includes fresh SQLite check and commit; database initialization excluded.",
+    "Report-only input is three group strings; full signed methods validate multi-transaction evidence and have different functionality.",
+    "Host root trusted; no TLS peer certificate verification, post-quantum authentication or remote network.",
+    "No private signing keys or TLS exporter material archived."
+  ]
+}

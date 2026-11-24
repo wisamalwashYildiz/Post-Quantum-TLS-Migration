@@ -1,0 +1,16 @@
+{
+  "trial": 2,
+  "scenario": "hybrid",
+  "status": "PASS",
+  "base": "SATISFIED",
+  "substituted_proof": "INVALID",
+  "missing": "UNRESOLVED",
+  "changed_transaction": "INVALID",
+  "copied_proofs_limitation": "SATISFIED",
+  "observed_groups": [
+    "X25519MLKEM768",
+    "X25519MLKEM768",
+    "X25519MLKEM768"
+  ],
+  "elapsed_ns": 85311737
+}

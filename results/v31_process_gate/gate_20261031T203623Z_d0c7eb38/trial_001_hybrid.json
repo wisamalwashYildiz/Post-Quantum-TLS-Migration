@@ -1,0 +1,18 @@
+{
+  "trial": 1,
+  "scenario": "hybrid",
+  "status": "PASS",
+  "baseline": "SATISFIED",
+  "forged_unsigned_edit": "INVALID",
+  "wrong_public_key": "INVALID",
+  "missing_witness": "UNRESOLVED",
+  "changed_transaction": "INVALID",
+  "copied_complete_evidence": "SATISFIED",
+  "groups": [
+    "X25519MLKEM768",
+    "X25519MLKEM768",
+    "X25519MLKEM768"
+  ],
+  "signed_receipts": 9,
+  "elapsed_ns": 72593597
+}

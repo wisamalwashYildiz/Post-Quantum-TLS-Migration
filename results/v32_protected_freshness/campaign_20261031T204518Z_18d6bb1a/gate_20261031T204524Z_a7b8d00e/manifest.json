@@ -1,0 +1,19 @@
+{
+  "schema": "pqc-v3.2-uid-freshness",
+  "date_utc": "2026-10-31T20:45:24.906522+00:00",
+  "openssl": "OpenSSL 3.5.9 29 Sep 2026 (Library: OpenSSL 3.5.9 29 Sep 2026)",
+  "model": "3 distinct numeric Linux UIDs and fourth adversarial UID; trust root orchestrator",
+  "trials_requested": 3,
+  "transactions_per_connection": 3,
+  "completed": 6,
+  "passes": 6,
+  "limits": [
+    "root is trusted and could impersonate roles",
+    "worker fork preloads TLS certificate contexts before dropping UID",
+    "verifier replay ledger uses durable SQLite atomic challenge reservations; single-trusted-verifier host only",
+    "certificate verification disabled and shared TLS cert; no PQ authentication",
+    "no remote deployment; honest receiver endpoints, compromised receiver not evaluated",
+    "role signing keys exist only under temporary native Linux filesystem and are destroyed",
+    "no private keys or raw TLS exporter values archived"
+  ]
+}

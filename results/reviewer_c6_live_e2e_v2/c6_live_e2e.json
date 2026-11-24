@@ -1,0 +1,540 @@
+{
+  "schema": "pqtls-c6-live-e2e-1",
+  "scope": "Real localhost 3-hop TLS1.3 handshake and application traffic; instrumented transaction-to-evidence collection; original v32 protected verifier; trusted root orchestrator, native Linux UID isolation; not distributed network latency.",
+  "timestamp_utc": "2026-11-20T21:51:27.675782+00:00",
+  "environment": {
+    "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.12.12",
+    "sqlite": "3.37.2",
+    "ssl_linked": "OpenSSL 3.5.5 27 Jan 2026",
+    "openssl_cli": "OpenSSL 3.5.9 29 Sep 2026 (Library: OpenSSL 3.5.9 29 Sep 2026)",
+    "cpu_count": 20
+  },
+  "sources": {
+    "v32_sha256": "92e83d353f72cbb6e46def9005ace69fbea53777a9ea128e546eb90f1f6399e4",
+    "v30_sha256": "9069cbcd5510b1f87ba2c8318d4f4d03877981a3b0a9c2469c9d6c9e25c7bc57",
+    "instrumented_live_case_sha256": "8a5ff053400b99f2699e16b8b225bdc7fa4852494568992d06bc34df61bc31ad",
+    "benchmark_sha256": "301cf70ef8ecdf7a594e861a8b1c6d3bfdb95d6e9f8b2d6c013241a380d3980e"
+  },
+  "parameters": {
+    "trials_per_scenario": 10,
+    "transactions_per_trial": 3,
+    "scenarios": [
+      "hybrid",
+      "classical_middle"
+    ]
+  },
+  "runs": [
+    {
+      "trial": 1,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 76.897566,
+      "live_case_ms": 64.813045,
+      "first_transaction_to_evidence_ms": 50.517836,
+      "first_transaction_to_final_verdict_ms": 62.707928,
+      "local_protected_verification_ms": 12.068911,
+      "evidence_return_to_verdict_ms": 12.190092,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 1,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 66.276958,
+      "live_case_ms": 55.861622,
+      "first_transaction_to_evidence_ms": 47.476466,
+      "first_transaction_to_final_verdict_ms": 57.992226,
+      "local_protected_verification_ms": 10.396661,
+      "evidence_return_to_verdict_ms": 10.51576,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 2,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 90.803129,
+      "live_case_ms": 59.538562,
+      "first_transaction_to_evidence_ms": 50.412362,
+      "first_transaction_to_final_verdict_ms": 82.135473,
+      "local_protected_verification_ms": 31.24527,
+      "evidence_return_to_verdict_ms": 31.723111,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 2,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 64.149426,
+      "live_case_ms": 54.333759,
+      "first_transaction_to_evidence_ms": 46.073891,
+      "first_transaction_to_final_verdict_ms": 56.26818,
+      "local_protected_verification_ms": 9.796429,
+      "evidence_return_to_verdict_ms": 10.194289,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 3,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 72.634856,
+      "live_case_ms": 62.744154,
+      "first_transaction_to_evidence_ms": 54.658688,
+      "first_transaction_to_final_verdict_ms": 64.63824,
+      "local_protected_verification_ms": 9.870518,
+      "evidence_return_to_verdict_ms": 9.979552,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 3,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 65.33827,
+      "live_case_ms": 55.898564,
+      "first_transaction_to_evidence_ms": 47.497538,
+      "first_transaction_to_final_verdict_ms": 57.035157,
+      "local_protected_verification_ms": 9.421464,
+      "evidence_return_to_verdict_ms": 9.537619,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 4,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 69.904079,
+      "live_case_ms": 59.857016,
+      "first_transaction_to_evidence_ms": 51.775482,
+      "first_transaction_to_final_verdict_ms": 61.914573,
+      "local_protected_verification_ms": 10.030188,
+      "evidence_return_to_verdict_ms": 10.139091,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 4,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 66.633544,
+      "live_case_ms": 56.827438,
+      "first_transaction_to_evidence_ms": 46.468917,
+      "first_transaction_to_final_verdict_ms": 56.700127,
+      "local_protected_verification_ms": 9.788414,
+      "evidence_return_to_verdict_ms": 10.23121,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 5,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 66.736528,
+      "live_case_ms": 57.079208,
+      "first_transaction_to_evidence_ms": 48.667271,
+      "first_transaction_to_final_verdict_ms": 58.702479,
+      "local_protected_verification_ms": 9.640372,
+      "evidence_return_to_verdict_ms": 10.035208,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 5,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 68.781658,
+      "live_case_ms": 58.373597,
+      "first_transaction_to_evidence_ms": 49.691689,
+      "first_transaction_to_final_verdict_ms": 60.257257,
+      "local_protected_verification_ms": 10.38951,
+      "evidence_return_to_verdict_ms": 10.565568,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 6,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 66.066153,
+      "live_case_ms": 55.519124,
+      "first_transaction_to_evidence_ms": 46.865,
+      "first_transaction_to_final_verdict_ms": 57.875461,
+      "local_protected_verification_ms": 10.527897,
+      "evidence_return_to_verdict_ms": 11.010461,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 6,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 66.239554,
+      "live_case_ms": 57.343806,
+      "first_transaction_to_evidence_ms": 49.204618,
+      "first_transaction_to_final_verdict_ms": 58.243667,
+      "local_protected_verification_ms": 8.877607,
+      "evidence_return_to_verdict_ms": 9.039049,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 7,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 69.43416,
+      "live_case_ms": 59.413043,
+      "first_transaction_to_evidence_ms": 49.904963,
+      "first_transaction_to_final_verdict_ms": 60.013539,
+      "local_protected_verification_ms": 10.004196,
+      "evidence_return_to_verdict_ms": 10.108576,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 7,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 65.721848,
+      "live_case_ms": 55.762485,
+      "first_transaction_to_evidence_ms": 46.122634,
+      "first_transaction_to_final_verdict_ms": 56.41957,
+      "local_protected_verification_ms": 9.940979,
+      "evidence_return_to_verdict_ms": 10.296936,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 8,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 70.14936,
+      "live_case_ms": 61.149296,
+      "first_transaction_to_evidence_ms": 52.017766,
+      "first_transaction_to_final_verdict_ms": 61.114224,
+      "local_protected_verification_ms": 8.982586,
+      "evidence_return_to_verdict_ms": 9.096458,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 8,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 65.066606,
+      "live_case_ms": 55.290503,
+      "first_transaction_to_evidence_ms": 47.029533,
+      "first_transaction_to_final_verdict_ms": 57.182718,
+      "local_protected_verification_ms": 9.758987,
+      "evidence_return_to_verdict_ms": 10.153185,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 9,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 66.860572,
+      "live_case_ms": 57.489385,
+      "first_transaction_to_evidence_ms": 47.615429,
+      "first_transaction_to_final_verdict_ms": 57.317832,
+      "local_protected_verification_ms": 9.353837,
+      "evidence_return_to_verdict_ms": 9.702403,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 9,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 75.180909,
+      "live_case_ms": 63.501765,
+      "first_transaction_to_evidence_ms": 53.217855,
+      "first_transaction_to_final_verdict_ms": 65.024418,
+      "local_protected_verification_ms": 11.66134,
+      "evidence_return_to_verdict_ms": 11.806563,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 10,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "PASS",
+      "verdict": "SATISFIED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519MLKEM768",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 68.800974,
+      "live_case_ms": 58.934905,
+      "first_transaction_to_evidence_ms": 49.147058,
+      "first_transaction_to_final_verdict_ms": 59.30325,
+      "local_protected_verification_ms": 9.848886,
+      "evidence_return_to_verdict_ms": 10.156192,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    },
+    {
+      "trial": 10,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "PASS",
+      "verdict": "VIOLATED",
+      "negotiated_groups": [
+        "X25519MLKEM768",
+        "X25519",
+        "X25519MLKEM768"
+      ],
+      "total_local_cycle_ms": 69.404564,
+      "live_case_ms": 59.345346,
+      "first_transaction_to_evidence_ms": 49.23595,
+      "first_transaction_to_final_verdict_ms": 59.635607,
+      "local_protected_verification_ms": 10.041302,
+      "evidence_return_to_verdict_ms": 10.399657,
+      "verification_includes_ledger_initialization": true,
+      "count_transactions": 3
+    }
+  ],
+  "summary": {
+    "hybrid": {
+      "passed": 10,
+      "requested": 10,
+      "metrics": {
+        "total_local_cycle_ms": {
+          "count": 10,
+          "median_ms": 69.6691195,
+          "p95_ms": 84.54562565,
+          "p99_ms": 89.55162833,
+          "min_ms": 66.066153,
+          "max_ms": 90.803129
+        },
+        "live_case_ms": {
+          "count": 10,
+          "median_ms": 59.4758025,
+          "p95_ms": 63.882044050000005,
+          "p99_ms": 64.62684481000001,
+          "min_ms": 55.519124,
+          "max_ms": 64.813045
+        },
+        "first_transaction_to_evidence_ms": {
+          "count": 10,
+          "median_ms": 50.158662500000005,
+          "p95_ms": 53.4702731,
+          "p99_ms": 54.421005019999996,
+          "min_ms": 46.865,
+          "max_ms": 54.658688
+        },
+        "first_transaction_to_final_verdict_ms": {
+          "count": 10,
+          "median_ms": 60.5638815,
+          "p95_ms": 74.26171815000001,
+          "p99_ms": 80.56072203000001,
+          "min_ms": 57.317832,
+          "max_ms": 82.135473
+        },
+        "local_protected_verification_ms": {
+          "count": 10,
+          "median_ms": 9.937357,
+          "p95_ms": 22.615908450000013,
+          "p99_ms": 29.519397690000005,
+          "min_ms": 8.982586,
+          "max_ms": 31.24527
+        },
+        "evidence_return_to_verdict_ms": {
+          "count": 10,
+          "median_ms": 10.1238335,
+          "p95_ms": 22.933252450000012,
+          "p99_ms": 29.965139290000003,
+          "min_ms": 9.096458,
+          "max_ms": 31.723111
+        }
+      }
+    },
+    "classical_middle": {
+      "passed": 10,
+      "requested": 10,
+      "metrics": {
+        "total_local_cycle_ms": {
+          "count": 10,
+          "median_ms": 66.25825599999999,
+          "p95_ms": 72.58155375,
+          "p99_ms": 74.66103795,
+          "min_ms": 64.149426,
+          "max_ms": 75.180909
+        },
+        "live_case_ms": {
+          "count": 10,
+          "median_ms": 56.363001,
+          "p95_ms": 61.631376450000005,
+          "p99_ms": 63.12768729,
+          "min_ms": 54.333759,
+          "max_ms": 63.501765
+        },
+        "first_transaction_to_evidence_ms": {
+          "count": 10,
+          "median_ms": 47.487002000000004,
+          "p95_ms": 51.6310803,
+          "p99_ms": 52.90050006,
+          "min_ms": 46.073891,
+          "max_ms": 53.217855
+        },
+        "first_transaction_to_final_verdict_ms": {
+          "count": 10,
+          "median_ms": 57.587472000000005,
+          "p95_ms": 62.879195550000006,
+          "p99_ms": 64.59537351,
+          "min_ms": 56.26818,
+          "max_ms": 65.024418
+        },
+        "local_protected_verification_ms": {
+          "count": 10,
+          "median_ms": 9.868704000000001,
+          "p95_ms": 11.092234450000001,
+          "p99_ms": 11.54751889,
+          "min_ms": 8.877607,
+          "max_ms": 11.66134
+        },
+        "evidence_return_to_verdict_ms": {
+          "count": 10,
+          "median_ms": 10.264073,
+          "p95_ms": 11.248115250000001,
+          "p99_ms": 11.694873450000001,
+          "min_ms": 9.039049,
+          "max_ms": 11.806563
+        }
+      }
+    }
+  },
+  "all_pass": true
+}

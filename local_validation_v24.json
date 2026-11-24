@@ -1,0 +1,56 @@
+{
+  "version": "2.4",
+  "model": "three live TLS hops; three root-trusted receiving processes; unprivileged client after exec + drop; simulated OFFLINE adjacent relay re-signing",
+  "openssl": "OpenSSL 3.5.5 27 Jan 2026",
+  "count_per_connection": 3,
+  "checks": {
+    "hybrid": [
+      "SATISFIED",
+      "all requests on three corroborated hybrid TLS legs"
+    ],
+    "classical_middle": [
+      "VIOLATED",
+      "trusted receiver observed classical TLS"
+    ],
+    "forged_baseline": "SATISFIED",
+    "forged_corroborated": [
+      "INVALID",
+      "receiver session-link discrepancy"
+    ],
+    "missing_witness": [
+      "UNRESOLVED",
+      "missing evidence"
+    ],
+    "swapped_witness": [
+      "INVALID",
+      "witness sequence"
+    ],
+    "replayed_transaction": [
+      "INVALID",
+      "duplicate/invalid nonce"
+    ]
+  },
+  "groups": {
+    "hybrid": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "classical_middle": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ]
+  },
+  "attacker_key_read_denied": true,
+  "limits": [
+    "all receivers share same trusted root UID; NOT independent receiver trust domains",
+    "attacker initially launched as root then drops UID before attacker code; no arbitrary-code sandboxing",
+    "relay corruption is OFFLINE re-signing with orchestrator-held keys; no actual relay process compromise",
+    "session labels are public handshake-random hashes, not TLS exporter bindings",
+    "reused one inbound and outbound TLS connection per node across batch; sequential not concurrently multiplexed",
+    "self-signed certificate validation disabled; hybrid TLS key-exchange only",
+    "root and host compromise are outside threat model",
+    "sensitive secrets are never included in public output"
+  ]
+}

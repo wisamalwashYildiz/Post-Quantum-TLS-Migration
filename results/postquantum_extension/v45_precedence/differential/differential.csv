@@ -1,0 +1,11 @@
+path,intervention,v32,v44,v45,legacy_agreement,reference_diff
+hybrid,unaltered,SATISFIED,SATISFIED,SATISFIED,True,False
+hybrid,missing_first,INVALID,INVALID,UNRESOLVED,True,True
+hybrid,missing_last,INVALID,INVALID,UNRESOLVED,True,True
+hybrid,missing_middle,INVALID,INVALID,UNRESOLVED,True,True
+hybrid,unsigned_last,INVALID,INVALID,INVALID,True,False
+classical_middle,unaltered,VIOLATED,VIOLATED,VIOLATED,True,False
+classical_middle,missing_first,INVALID,INVALID,VIOLATED,True,True
+classical_middle,missing_last,INVALID,INVALID,VIOLATED,True,True
+classical_middle,missing_middle,INVALID,INVALID,VIOLATED,True,True
+classical_middle,unsigned_last,INVALID,INVALID,INVALID,True,False

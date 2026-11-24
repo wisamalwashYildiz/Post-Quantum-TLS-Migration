@@ -1,0 +1,6 @@
+hops,repetitions,median_ms,minimum_ms,evidence_bytes,all_satisfied
+3,40,0.220056,0.207288,1283,True
+5,40,0.369583,0.349251,2187,True
+7,40,0.512982,0.480519,3091,True
+10,40,0.72995,0.694045,4447,True
+16,40,1.156534,1.112176,7165,True

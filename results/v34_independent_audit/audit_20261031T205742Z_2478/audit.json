@@ -1,0 +1,67 @@
+{
+  "schema": "pqc-v34-independent-audit",
+  "generated_utc": "2026-10-31T20:57:42.490191+00:00",
+  "source_schema": "pqc-v33-paired-comparison",
+  "checksums_checked": 3,
+  "live_scenario_runs": 20,
+  "decision_rows": 300,
+  "paired_cases": 100,
+  "trial_count": 10,
+  "totals": {
+    "report_only": {
+      "decisions": 100,
+      "false_hybrid_approvals": 40,
+      "invalid": 0,
+      "unresolved": 0
+    },
+    "signed_receiver": {
+      "decisions": 100,
+      "false_hybrid_approvals": 0,
+      "invalid": 20,
+      "unresolved": 20
+    },
+    "protected_fresh": {
+      "decisions": 100,
+      "false_hybrid_approvals": 0,
+      "invalid": 40,
+      "unresolved": 20
+    }
+  },
+  "matched_classical_cases": {
+    "unaltered": {
+      "classical_cases": 10,
+      "false_approvals_report_only": 0,
+      "false_approvals_protected": 0
+    },
+    "forwarder_false_hybrid": {
+      "classical_cases": 10,
+      "false_approvals_report_only": 10,
+      "false_approvals_protected": 0
+    },
+    "receiver_edit": {
+      "classical_cases": 10,
+      "false_approvals_report_only": 10,
+      "false_approvals_protected": 0
+    },
+    "missing_receiver": {
+      "classical_cases": 10,
+      "false_approvals_report_only": 10,
+      "false_approvals_protected": 0
+    },
+    "copied_new_challenge": {
+      "classical_cases": 10,
+      "false_approvals_report_only": 10,
+      "false_approvals_protected": 0
+    }
+  },
+  "integrity": "PASS",
+  "errors": [],
+  "interpretation": [
+    "Distinct paired cases are correlated within each trial; counts are not binomial estimates for real deployments.",
+    "Attacks were applied offline to evidence after real live TLS, not actual relay process compromises.",
+    "verification_bundle_ns is repeated across methods, so per-method verification costs CANNOT be compared.",
+    "Report-only accepts attacker-controlled reports in intervention matrix; baseline is intentionally weak.",
+    "No malicious legitimate receiver signer test in this dataset.",
+    "No TLS peer-certificate authentication; root compromise excluded."
+  ]
+}

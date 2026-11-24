@@ -1,0 +1,11 @@
+{
+  "hop_counts": [
+    3,
+    5,
+    7,
+    10,
+    16
+  ],
+  "repetitions_per_size": 40,
+  "type": "synthetic n-hop computational microbenchmark; no TLS network"
+}

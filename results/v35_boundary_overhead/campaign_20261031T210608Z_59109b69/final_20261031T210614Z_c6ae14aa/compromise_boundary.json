@@ -1,0 +1,422 @@
+[
+  {
+    "trial": 1,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 1,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 2,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 2,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 3,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 3,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 4,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 4,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 5,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 5,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 6,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 6,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 7,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 7,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 8,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 8,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 9,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 9,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 10,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "SATISFIED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  },
+  {
+    "trial": 10,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "roles": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "attacker_key_access_denied": true,
+    "original": "VIOLATED",
+    "compromised_signer_receipt_authenticates": true,
+    "compromised_evidence_verdict": "INVALID",
+    "interpretation": "A valid signature does not prove a truthful statement; cross-hop consistency rejects this unilateral manipulation."
+  }
+]

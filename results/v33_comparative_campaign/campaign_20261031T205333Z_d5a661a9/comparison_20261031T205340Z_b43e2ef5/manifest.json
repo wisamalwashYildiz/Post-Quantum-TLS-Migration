@@ -1,0 +1,42 @@
+{
+  "schema": "pqc-v33-paired-comparison",
+  "utc": "2026-10-31T20:53:42.187983+00:00",
+  "openssl": "OpenSSL 3.5.9 29 Sep 2026 (Library: OpenSSL 3.5.9 29 Sep 2026)",
+  "trials_requested": 10,
+  "transactions_per_tls_connection": 3,
+  "live_scenario_successes": 20,
+  "live_scenario_total": 20,
+  "observations": 300,
+  "tallies": {
+    "report_only": {
+      "n": 100,
+      "false_hybrid_approvals": 40,
+      "unresolved": 0,
+      "invalid": 0
+    },
+    "signed_receiver": {
+      "n": 100,
+      "false_hybrid_approvals": 0,
+      "unresolved": 20,
+      "invalid": 20
+    },
+    "protected_fresh": {
+      "n": 100,
+      "false_hybrid_approvals": 0,
+      "unresolved": 20,
+      "invalid": 40
+    }
+  },
+  "errors": [],
+  "limitations": [
+    "Report-only comparator uses attacker-controlled claimed groups, not actual receiver evidence",
+    "Attacks are OFFLINE mutations after real live TLS; no real forwarder compromise",
+    "Signed-only uses the same original authentic receiver signatures but no independent verifier freshness",
+    "Per-attack verifier ledgers are independent; shared copied-receipt negative control checks new challenge",
+    "Three honest receiver processes with distinct UIDs; trusted root orchestrates; root compromise excluded",
+    "Same host localhost; TLS peer certificates unvalidated; no PQ authentication",
+    "Verification bundle timing is shared across three methods and not per-method isolated timing",
+    "Benchmarked attack cases are deliberately selected, not a statistically representative attack distribution",
+    "No raw TLS exporter secrets or signing keys archived"
+  ]
+}

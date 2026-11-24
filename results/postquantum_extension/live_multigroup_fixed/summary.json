@@ -1,0 +1,6 @@
+{
+  "cases": 5,
+  "limitations": "Original verifier fixed-group policy; this measures negotiation and baseline compatibility, not new authenticated flexible-policy decision.",
+  "passed": 5,
+  "type": "live-TLS-1.3"
+}

@@ -1,0 +1,370 @@
+{
+  "protocol": "C6 unmodified-v32 capacity/contention audit v2",
+  "scope": "local protected-fresh verifier; synthetic signed evidence; no TLS establishment/transport",
+  "environment": {
+    "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "sqlite": "3.37.2",
+    "cpu_count": 20,
+    "source_hash": "92e83d353f72cbb6e46def9005ace69fbea53777a9ea128e546eb90f1f6399e4",
+    "fixture_hash": "6542aaf3c033ee77e0d867da41f82769c0acb8dd1e5ee50e256be6e4cb38cdee"
+  },
+  "parameters": {
+    "project": ".",
+    "output": "results/reviewer_c6_benchmark_v2",
+    "batch": 256,
+    "repeats": 3,
+    "long_batch": 4096
+  },
+  "trials": [
+    {
+      "kind": "concurrency",
+      "workers": 1,
+      "trial": 1,
+      "requests": 256,
+      "wall_seconds": 1.136589355,
+      "completed_rps": 225.23526097954704,
+      "successful_rps": 225.23526097954704,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 57344,
+      "page_count": 14,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.2381725,
+      "success_latency_p95_ms": 5.373083,
+      "success_latency_p99_ms": 7.391984,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 1,
+      "trial": 2,
+      "requests": 256,
+      "wall_seconds": 1.154190352,
+      "completed_rps": 221.80050245299572,
+      "successful_rps": 221.80050245299572,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 57344,
+      "page_count": 14,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.2711395,
+      "success_latency_p95_ms": 5.491612,
+      "success_latency_p99_ms": 8.602302,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 1,
+      "trial": 3,
+      "requests": 256,
+      "wall_seconds": 1.143626956,
+      "completed_rps": 223.8492181885926,
+      "successful_rps": 223.8492181885926,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 57344,
+      "page_count": 14,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.1848085,
+      "success_latency_p95_ms": 5.748136,
+      "success_latency_p99_ms": 8.171244,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 2,
+      "trial": 1,
+      "requests": 256,
+      "wall_seconds": 1.138526543,
+      "completed_rps": 224.85202613321945,
+      "successful_rps": 224.85202613321945,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 61440,
+      "page_count": 15,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.033882999999999,
+      "success_latency_p95_ms": 4.94097,
+      "success_latency_p99_ms": 8.576569,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 2,
+      "trial": 2,
+      "requests": 256,
+      "wall_seconds": 1.1403205,
+      "completed_rps": 224.49828798131753,
+      "successful_rps": 224.49828798131753,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 57344,
+      "page_count": 14,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.086874,
+      "success_latency_p95_ms": 5.057707,
+      "success_latency_p99_ms": 7.623984,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 2,
+      "trial": 3,
+      "requests": 256,
+      "wall_seconds": 1.069995854,
+      "completed_rps": 239.2532634990939,
+      "successful_rps": 239.2532634990939,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 61440,
+      "page_count": 15,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.0284770000000005,
+      "success_latency_p95_ms": 4.904624,
+      "success_latency_p99_ms": 8.479396,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 4,
+      "trial": 1,
+      "requests": 256,
+      "wall_seconds": 1.099790549,
+      "completed_rps": 232.77159476663226,
+      "successful_rps": 232.77159476663226,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 57344,
+      "page_count": 14,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.0314265,
+      "success_latency_p95_ms": 5.965068,
+      "success_latency_p99_ms": 734.278406,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 4,
+      "trial": 2,
+      "requests": 256,
+      "wall_seconds": 1.13664921,
+      "completed_rps": 225.22340027843768,
+      "successful_rps": 225.22340027843768,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 61440,
+      "page_count": 15,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.081512999999999,
+      "success_latency_p95_ms": 5.239121,
+      "success_latency_p99_ms": 434.845716,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 4,
+      "trial": 3,
+      "requests": 256,
+      "wall_seconds": 1.171213209,
+      "completed_rps": 218.5767698253478,
+      "successful_rps": 218.5767698253478,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 61440,
+      "page_count": 15,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.136629,
+      "success_latency_p95_ms": 5.127552,
+      "success_latency_p99_ms": 836.312646,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 8,
+      "trial": 1,
+      "requests": 256,
+      "wall_seconds": 1.432541288,
+      "completed_rps": 178.70340083349836,
+      "successful_rps": 178.70340083349836,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 61440,
+      "page_count": 15,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.079853,
+      "success_latency_p95_ms": 6.005978,
+      "success_latency_p99_ms": 1235.495926,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 8,
+      "trial": 2,
+      "requests": 256,
+      "wall_seconds": 1.179885257,
+      "completed_rps": 216.97025069277564,
+      "successful_rps": 216.97025069277564,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 57344,
+      "page_count": 14,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.03938,
+      "success_latency_p95_ms": 5.741193,
+      "success_latency_p99_ms": 1136.230888,
+      "errors": []
+    },
+    {
+      "kind": "concurrency",
+      "workers": 8,
+      "trial": 3,
+      "requests": 256,
+      "wall_seconds": 1.245959585,
+      "completed_rps": 205.4641282766808,
+      "successful_rps": 205.4641282766808,
+      "outcomes": {
+        "SATISFIED": 256
+      },
+      "all_success": true,
+      "db_records": 256,
+      "db_bytes": 57344,
+      "page_count": 14,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.114512,
+      "success_latency_p95_ms": 9.864604,
+      "success_latency_p99_ms": 1140.196429,
+      "errors": []
+    },
+    {
+      "kind": "long_batch",
+      "workers": 1,
+      "trial": 1,
+      "requests": 4096,
+      "wall_seconds": 17.07233177,
+      "completed_rps": 239.92036091974327,
+      "successful_rps": 239.92036091974327,
+      "outcomes": {
+        "SATISFIED": 4096
+      },
+      "all_success": true,
+      "db_records": 4096,
+      "db_bytes": 700416,
+      "page_count": 171,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.020626999999999,
+      "success_latency_p95_ms": 4.881947,
+      "success_latency_p99_ms": 6.092282,
+      "errors": []
+    },
+    {
+      "kind": "long_batch",
+      "workers": 8,
+      "trial": 1,
+      "requests": 4096,
+      "wall_seconds": 21.926165778,
+      "completed_rps": 186.80876727247008,
+      "successful_rps": 186.71755205407533,
+      "outcomes": {
+        "SATISFIED": 4094,
+        "EXCEPTION": 2
+      },
+      "all_success": false,
+      "db_records": 4094,
+      "db_bytes": 692224,
+      "page_count": 169,
+      "page_size": 4096,
+      "success_latency_median_ms": 4.326366,
+      "success_latency_p95_ms": 11.373924,
+      "success_latency_p99_ms": 640.863861,
+      "errors": [
+        {
+          "error_type": "OperationalError",
+          "error": "database is locked"
+        },
+        {
+          "error_type": "OperationalError",
+          "error": "database is locked"
+        }
+      ]
+    }
+  ],
+  "storage": [
+    {
+      "verdicts": 0,
+      "stored": 0,
+      "sqlite_file_bytes": 12288
+    },
+    {
+      "verdicts": 64,
+      "stored": 64,
+      "sqlite_file_bytes": 28672
+    },
+    {
+      "verdicts": 256,
+      "stored": 256,
+      "sqlite_file_bytes": 57344
+    },
+    {
+      "verdicts": 512,
+      "stored": 512,
+      "sqlite_file_bytes": 102400
+    },
+    {
+      "verdicts": 1024,
+      "stored": 1024,
+      "sqlite_file_bytes": 184320
+    }
+  ],
+  "race": {
+    "workers": 12,
+    "results": [
+      "INVALID",
+      "INVALID",
+      "INVALID",
+      "INVALID",
+      "SATISFIED",
+      "INVALID",
+      "INVALID",
+      "INVALID",
+      "INVALID",
+      "INVALID",
+      "INVALID",
+      "INVALID"
+    ],
+    "correct": true
+  }
+}

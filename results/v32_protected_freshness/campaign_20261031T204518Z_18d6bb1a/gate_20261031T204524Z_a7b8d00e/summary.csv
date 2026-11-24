@@ -1,0 +1,7 @@
+trial,scenario,status,baseline,replay_same_challenge,copy_new_challenge,forged_receiver,missing_witness,role_uids,attacker_uid,attacker_key_read_denied,groups,signed_receipts,elapsed_ns,error
+1,hybrid,PASS,SATISFIED,INVALID,INVALID,INVALID,UNRESOLVED,"{'gateway': 62001, 'service-a': 62002, 'backend': 62003}",62004,True,"['X25519MLKEM768', 'X25519MLKEM768', 'X25519MLKEM768']",9,76187117,
+1,classical_middle,PASS,VIOLATED,INVALID,INVALID,INVALID,UNRESOLVED,"{'gateway': 62001, 'service-a': 62002, 'backend': 62003}",62004,True,"['X25519MLKEM768', 'X25519', 'X25519MLKEM768']",9,62739527,
+2,hybrid,PASS,SATISFIED,INVALID,INVALID,INVALID,UNRESOLVED,"{'gateway': 62001, 'service-a': 62002, 'backend': 62003}",62004,True,"['X25519MLKEM768', 'X25519MLKEM768', 'X25519MLKEM768']",9,66290636,
+2,classical_middle,PASS,VIOLATED,INVALID,INVALID,INVALID,UNRESOLVED,"{'gateway': 62001, 'service-a': 62002, 'backend': 62003}",62004,True,"['X25519MLKEM768', 'X25519', 'X25519MLKEM768']",9,66426202,
+3,hybrid,PASS,SATISFIED,INVALID,INVALID,INVALID,UNRESOLVED,"{'gateway': 62001, 'service-a': 62002, 'backend': 62003}",62004,True,"['X25519MLKEM768', 'X25519MLKEM768', 'X25519MLKEM768']",9,66199169,
+3,classical_middle,PASS,VIOLATED,INVALID,INVALID,INVALID,UNRESOLVED,"{'gateway': 62001, 'service-a': 62002, 'backend': 62003}",62004,True,"['X25519MLKEM768', 'X25519', 'X25519MLKEM768']",9,66205052,

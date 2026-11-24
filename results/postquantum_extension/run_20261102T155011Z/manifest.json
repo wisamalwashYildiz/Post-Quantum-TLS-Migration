@@ -1,0 +1,51 @@
+{
+  "suite": "Six independent extensions: live heterogeneity, trajectory, ablation, scaling, compromise, freshness",
+  "run_utc": "2026-11-02T15:50:12.358524+00:00",
+  "python": "3.12.12 (main, Oct 31 2026, 21:48:06) [GCC 11.4.0]",
+  "project_output": "/mnt/d/Articles/Post-Quantum TLS Migration/Post-Quantum TLS Migration-Project/results/postquantum_extension/run_20261102T155011Z",
+  "modules": [
+    {
+      "module": "v37",
+      "status": "SKIPPED",
+      "reason": "use --include-live under root after checking README"
+    },
+    {
+      "module": "v38",
+      "status": "PASS",
+      "return_code": 0,
+      "script": "v38_migration_trajectory.py"
+    },
+    {
+      "module": "v39",
+      "status": "PASS",
+      "return_code": 0,
+      "script": "v39_control_ablation.py"
+    },
+    {
+      "module": "v40",
+      "status": "PASS",
+      "return_code": 0,
+      "script": "v40_scaling.py"
+    },
+    {
+      "module": "v41",
+      "status": "PASS",
+      "return_code": 0,
+      "script": "v41_compromise_boundary.py"
+    },
+    {
+      "module": "v42",
+      "status": "PASS",
+      "return_code": 0,
+      "script": "v42_concurrent_freshness.py"
+    }
+  ],
+  "source_sha256": {
+    "v37_multigroup_live.py": "059d9e94c378bc4cb60319e585930d0605951b3fd9aba8f69e5089e78553b271",
+    "v38_migration_trajectory.py": "d4ae25aea6b7db04401c295b82a79e68df2690c6087ca59051e16d19e9ec4704",
+    "v39_control_ablation.py": "3f2c90f722333c1f8f1e551e96ad5ab242de5dd39635366001e83a55b5a47b0f",
+    "v40_scaling.py": "c65b2ea7ccbb7f548326c200f112779170e6dd12bc1eb6e62b41742ee9093a85",
+    "v41_compromise_boundary.py": "bee550cb306120853f61f937d7955b96eaaf914e16ee1c206a1ea0307382bb2d",
+    "v42_concurrent_freshness.py": "2a16245d2017eea244dd2e51f279b8fa9588a919d61e409d9e583c0b870d3877"
+  }
+}

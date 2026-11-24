@@ -1,0 +1,17 @@
+{
+  "experiment": "Synthetic, offline, no live TLS; unchanged v32 verifier",
+  "n_cases": 112,
+  "counts": {
+    "('complete', 'SATISFIED')": 1,
+    "('complete', 'VIOLATED')": 3,
+    "('missing_receiver', 'INVALID')": 24,
+    "('missing_receiver', 'UNRESOLVED')": 12,
+    "('unsigned_exporter_edit', 'INVALID')": 36,
+    "('unsigned_group_edit', 'INVALID')": 36
+  },
+  "missing_classical_middle": {
+    "INVALID": 6,
+    "UNRESOLVED": 3
+  },
+  "source_verifier": "src/v32_protected_freshness.py::verify"
+}

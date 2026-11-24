@@ -1,0 +1,24 @@
+{
+  "trial": 3,
+  "scenario": "hybrid",
+  "status": "PASS",
+  "baseline": "SATISFIED",
+  "replay_same_challenge": "INVALID",
+  "copy_new_challenge": "INVALID",
+  "forged_receiver": "INVALID",
+  "missing_witness": "UNRESOLVED",
+  "role_uids": {
+    "gateway": 62001,
+    "service-a": 62002,
+    "backend": 62003
+  },
+  "attacker_uid": 62004,
+  "attacker_key_read_denied": true,
+  "groups": [
+    "X25519MLKEM768",
+    "X25519MLKEM768",
+    "X25519MLKEM768"
+  ],
+  "signed_receipts": 9,
+  "elapsed_ns": 66199169
+}

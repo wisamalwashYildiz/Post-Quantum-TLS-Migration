@@ -1,0 +1,280 @@
+{
+  "schema": "pqtls-c6-live-e2e-1",
+  "scope": "Real localhost 3-hop TLS1.3 handshake and application traffic; instrumented transaction-to-evidence collection; original v32 protected verifier; trusted root orchestrator, native Linux UID isolation; not distributed network latency.",
+  "timestamp_utc": "2026-11-20T21:48:56.903484+00:00",
+  "environment": {
+    "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.12.12",
+    "sqlite": "3.37.2",
+    "ssl_linked": "OpenSSL 3.5.5 27 Jan 2026",
+    "openssl_cli": "OpenSSL 3.5.9 29 Sep 2026 (Library: OpenSSL 3.5.9 29 Sep 2026)",
+    "cpu_count": 20
+  },
+  "sources": {
+    "v32_sha256": "92e83d353f72cbb6e46def9005ace69fbea53777a9ea128e546eb90f1f6399e4",
+    "v30_sha256": "9069cbcd5510b1f87ba2c8318d4f4d03877981a3b0a9c2469c9d6c9e25c7bc57",
+    "instrumented_live_case_sha256": "8a5ff053400b99f2699e16b8b225bdc7fa4852494568992d06bc34df61bc31ad",
+    "benchmark_sha256": "492541596065ca50f1553008f6079b1b8b46c4d2cbf72768afca4baf6bca7f82"
+  },
+  "parameters": {
+    "trials_per_scenario": 10,
+    "transactions_per_trial": 3,
+    "scenarios": [
+      "hybrid",
+      "classical_middle"
+    ]
+  },
+  "runs": [
+    {
+      "trial": 1,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 1,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 2,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 2,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 3,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 3,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 4,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 4,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 5,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 5,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 6,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 6,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 7,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 7,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 8,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 8,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 9,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 9,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 10,
+      "scenario": "hybrid",
+      "expected": "SATISFIED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    },
+    {
+      "trial": 10,
+      "scenario": "classical_middle",
+      "expected": "VIOLATED",
+      "status": "FAIL",
+      "error": "RuntimeError('receiver startup ModuleNotFoundError(\"No module named \\'cryptography.hazmat.backends\\'\")')"
+    }
+  ],
+  "summary": {
+    "hybrid": {
+      "passed": 0,
+      "requested": 10,
+      "metrics": {
+        "total_local_cycle_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "live_case_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "first_transaction_to_evidence_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "first_transaction_to_final_verdict_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "local_protected_verification_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "evidence_return_to_verdict_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        }
+      }
+    },
+    "classical_middle": {
+      "passed": 0,
+      "requested": 10,
+      "metrics": {
+        "total_local_cycle_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "live_case_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "first_transaction_to_evidence_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "first_transaction_to_final_verdict_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "local_protected_verification_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        },
+        "evidence_return_to_verdict_ms": {
+          "count": 0,
+          "median_ms": null,
+          "p95_ms": null,
+          "p99_ms": null,
+          "min_ms": null,
+          "max_ms": null
+        }
+      }
+    }
+  },
+  "all_pass": false
+}

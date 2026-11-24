@@ -1,0 +1,19 @@
+{
+  "schema": "pqc-v3.1-process-gate",
+  "date_utc": "2026-10-31T20:36:23.542602+00:00",
+  "openssl": "OpenSSL 3.5.9 29 Sep 2026 (Library: OpenSSL 3.5.9 29 Sep 2026)",
+  "trials_requested": 3,
+  "count": 3,
+  "model": "three separate receiver processes; same OS user, parent trusted registrar",
+  "limits": [
+    "NO separate OS UID isolation; receivers share parent trust and user privileges",
+    "trusted parent registers ephemeral receiver keys over local Pipes",
+    "client and receiver certificate validation disabled",
+    "no remote network and no post-quantum authentication",
+    "copied complete signed evidence still verifies; freshness needs trusted independent challenge/ledger",
+    "dishonest signing endpoint can lie; one compromised endpoint not modeled",
+    "no raw exporter key material or signing private keys archived"
+  ],
+  "passes": 6,
+  "completed": 6
+}

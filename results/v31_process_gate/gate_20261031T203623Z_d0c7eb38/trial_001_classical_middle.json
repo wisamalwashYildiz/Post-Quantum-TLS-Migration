@@ -1,0 +1,18 @@
+{
+  "trial": 1,
+  "scenario": "classical_middle",
+  "status": "PASS",
+  "baseline": "VIOLATED",
+  "forged_unsigned_edit": "INVALID",
+  "wrong_public_key": "INVALID",
+  "missing_witness": "UNRESOLVED",
+  "changed_transaction": "INVALID",
+  "copied_complete_evidence": "VIOLATED",
+  "groups": [
+    "X25519MLKEM768",
+    "X25519",
+    "X25519MLKEM768"
+  ],
+  "signed_receipts": 9,
+  "elapsed_ns": 57962504
+}

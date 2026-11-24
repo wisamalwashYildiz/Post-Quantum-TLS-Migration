@@ -1,0 +1,3 @@
+# Versions not pinned in the original archive; compatible OpenSSL bindings required.
+cryptography
+pyOpenSSL

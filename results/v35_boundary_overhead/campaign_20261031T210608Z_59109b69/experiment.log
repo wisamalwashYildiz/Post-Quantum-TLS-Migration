@@ -1,0 +1,27 @@
+stdout:
+LIVE 1 hybrid PASS 
+LIVE 1 classical_middle PASS 
+LIVE 2 hybrid PASS 
+LIVE 2 classical_middle PASS 
+LIVE 3 hybrid PASS 
+LIVE 3 classical_middle PASS 
+LIVE 4 hybrid PASS 
+LIVE 4 classical_middle PASS 
+LIVE 5 hybrid PASS 
+LIVE 5 classical_middle PASS 
+LIVE 6 hybrid PASS 
+LIVE 6 classical_middle PASS 
+LIVE 7 hybrid PASS 
+LIVE 7 classical_middle PASS 
+LIVE 8 hybrid PASS 
+LIVE 8 classical_middle PASS 
+LIVE 9 hybrid PASS 
+LIVE 9 classical_middle PASS 
+LIVE 10 hybrid PASS 
+LIVE 10 classical_middle PASS 
+ARCHIVE /var/tmp/pqc-v35-public.wV5iXgGi/final_20261031T210614Z_c6ae14aa
+METHOD_SUMMARY {"report_only": {"n": 2000, "median_ns": 2646.0, "p95_nearest_rank_ns": 5544, "mean_evidence_bytes": 48}, "signed_receiver": {"n": 2000, "median_ns": 688684.0, "p95_nearest_rank_ns": 858617, "mean_evidence_bytes": 5033}, "protected_fresh": {"n": 2000, "median_ns": 4178375.0, "p95_nearest_rank_ns": 5027457, "mean_evidence_bytes": 5033}}
+PASS: 20 live scenarios; 6000 individually timed verification calls
+
+stderr:
+

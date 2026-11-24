@@ -1,0 +1,402 @@
+[
+  {
+    "trial": 1,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 102108636,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 1,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 96661213,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 2,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 92024880,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 2,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 92080710,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 3,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 91315961,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 3,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 93141108,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 4,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 99644743,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 4,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 97647625,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 5,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 94417097,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 5,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 96726488,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 6,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 92103313,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 6,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 94229125,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 7,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 92992137,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 7,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 95014978,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 8,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 94172057,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 8,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 93424735,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 9,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 100604474,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 9,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 101021454,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 10,
+    "scenario": "hybrid",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 93445810,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519MLKEM768",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  },
+  {
+    "trial": 10,
+    "scenario": "classical_middle",
+    "status": "PASS",
+    "live_setup_and_checks_ns": 91397632,
+    "observed_uids": {
+      "gateway": 62001,
+      "service-a": 62002,
+      "backend": 62003
+    },
+    "attacker_uid": 62004,
+    "all_keys_denied": true,
+    "actual_groups": [
+      "X25519MLKEM768",
+      "X25519",
+      "X25519MLKEM768"
+    ],
+    "signed_receipt_count": 9,
+    "error": ""
+  }
+]

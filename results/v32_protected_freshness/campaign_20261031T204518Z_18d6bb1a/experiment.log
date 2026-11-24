@@ -1,0 +1,12 @@
+stdout:
+1 hybrid PASS 
+1 classical_middle PASS 
+2 hybrid PASS 
+2 classical_middle PASS 
+3 hybrid PASS 
+3 classical_middle PASS 
+ARCHIVE /var/tmp/pqc-v32-public.xOuOKuqS/gate_20261031T204524Z_a7b8d00e
+PASS: 6 UID-isolated fresh-assurance scenarios
+
+stderr:
+

@@ -1,0 +1,10 @@
+.venv/
+venv/
+.idea/
+__pycache__/
+*.pyc
+.env
+*.key
+*.pem
+*.sqlite3
+reproduction/

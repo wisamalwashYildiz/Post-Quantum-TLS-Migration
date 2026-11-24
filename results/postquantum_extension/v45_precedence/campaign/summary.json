@@ -1,0 +1,9 @@
+{
+  "experiment": "v45 authenticated partial-evidence reference, synthetic signed fixtures",
+  "utc": "2026-11-02T16:39:35.061718+00:00",
+  "cases": 120,
+  "passed": 120,
+  "failed": 0,
+  "count_transactions_per_bundle": 3,
+  "limitations": "Signed synthetic receipts; independent antecedent comparison required to count verified groups; no new live TLS; original verifiers remain untouched."
+}
