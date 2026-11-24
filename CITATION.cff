@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite it using the metadata below."
+title: "Transaction-Level Verification of Hybrid Post-Quantum Key Establishment in Multi-Hop TLS: Research Artifact"
+type: software
+authors:
+  - family-names: Alwash
+    given-names: Wisam Makki
+  - family-names: Al-Khateeb
+    given-names: Belal
+  - family-names: Balık
+    given-names: Hasan Hüseyin
+version: 1.0.0
+repository-code: "https://github.com/wisamalwashYildiz/Post-Quantum-TLS-Migration"
+license: MIT
